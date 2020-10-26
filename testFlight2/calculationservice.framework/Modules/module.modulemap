@@ -1,0 +1,11 @@
+framework module calculationservice {
+  umbrella header "calculationservice.h"
+
+  export *
+  module * { export * }
+}
+
+module calculationservice.Swift {
+    header "calculationservice-Swift.h"
+    requires objc
+}

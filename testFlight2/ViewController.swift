@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import calculationservice
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let test = Execution().excecute(expression:"3+3")
+        print("test",test)
+        
     }
 
 
