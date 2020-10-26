@@ -14,7 +14,7 @@ class CalculationService{
     func REPLACE_WITH_CONSTANT(source:String)->(String){//sin(PI/4)
         var input = source
         input = input.replacingOccurrences(of: "pi", with: String(Double.pi))
-//        input = input.replacingOccurrences(of: "e", with: String(M_E))
+        input = input.replacingOccurrences(of: "e", with: String(M_E))
         
         return input
     }

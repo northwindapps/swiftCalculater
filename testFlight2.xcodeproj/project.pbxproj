@@ -14,10 +14,10 @@
 		6A1072B42546C32500A3C856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1072B32546C32500A3C856 /* Assets.xcassets */; };
 		6A1072B72546C32500A3C856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1072B52546C32500A3C856 /* LaunchScreen.storyboard */; };
 		6A1072C22546C32C00A3C856 /* testFlight2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1072C12546C32C00A3C856 /* testFlight2UITests.swift */; };
-		6A10731E2546E5BD00A3C856 /* calculationservice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10731C2546E5B700A3C856 /* calculationservice.framework */; };
-		6A10731F2546E5BD00A3C856 /* calculationservice.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10731C2546E5B700A3C856 /* calculationservice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A1073212546E85400A3C856 /* calculationservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1073202546E85400A3C856 /* calculationservice.swift */; };
 		6A1073232546E85A00A3C856 /* execution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1073222546E85A00A3C856 /* execution.swift */; };
+		6A1073272546EC8C00A3C856 /* calculationservice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1073252546EC8800A3C856 /* calculationservice.framework */; };
+		6A1073282546EC8C00A3C856 /* calculationservice.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1073252546EC8800A3C856 /* calculationservice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6A10731F2546E5BD00A3C856 /* calculationservice.framework in Embed Frameworks */,
+				6A1073282546EC8C00A3C856 /* calculationservice.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,9 +56,9 @@
 		6A1072BD2546C32C00A3C856 /* testFlight2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testFlight2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1072C12546C32C00A3C856 /* testFlight2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFlight2UITests.swift; sourceTree = "<group>"; };
 		6A1072C32546C32C00A3C856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A10731C2546E5B700A3C856 /* calculationservice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calculationservice.framework; sourceTree = "<group>"; };
 		6A1073202546E85400A3C856 /* calculationservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculationservice.swift; sourceTree = "<group>"; };
 		6A1073222546E85A00A3C856 /* execution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = execution.swift; sourceTree = "<group>"; };
+		6A1073252546EC8800A3C856 /* calculationservice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calculationservice.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A10731E2546E5BD00A3C856 /* calculationservice.framework in Frameworks */,
+				6A1073272546EC8C00A3C856 /* calculationservice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 				6A1072B32546C32500A3C856 /* Assets.xcassets */,
 				6A1072B52546C32500A3C856 /* LaunchScreen.storyboard */,
 				6A1072B82546C32500A3C856 /* Info.plist */,
-				6A10731C2546E5B700A3C856 /* calculationservice.framework */,
+				6A1073252546EC8800A3C856 /* calculationservice.framework */,
 			);
 			path = testFlight2;
 			sourceTree = "<group>";
